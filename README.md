@@ -53,6 +53,37 @@ You will have to use [Metadata2go](https://www.metadata2go.com/) to extract the 
 Upload the audio file to that website, then checkout the "Original Date", then you will have your answer!
 
 
+## [Task 4] Cracking the attack
+Topic : Cracking the attack
+* Tools: John The Ripper, xxd, QR Decoder
+
+#### How to solve : 
+* We'll be using [Sox](http://sox.sourceforge.net/)
+
+* What is the flag?
+
+We will download the QR Code then upload it to [Zxing QR decoder](https://zxing.org/w/decode.jspx)
+
+You will get a github link, download all the files and start cracking!
+
+Open up the terminal, type "zip2john [file.zip] > hash"
+
+The hash file will be automatically saved to your working directory.
+
+Then you'll have to type "john hash --wordlist=/usr/share/wordlists/rockyou.txt
+
+The password of the ZIP will be cracked instantly and will be showen on the Terminal.
+
+Extract the Audio file from the ZIP file, and then type "xxd audio.mp3", you will get Hex values
+
+Go down to the bottom and you will copy the hash code, then you will have to connect them together in a notepad or a text editor.
+
+Then, you will go to [Base 64 decoder](https://www.base64decode.org/) and decode the hash. Your new hash will be a Base64 as well, so decode it again until you get the flag!
+
+## [Task 5] End
+Topic : End
+* Thank you!
+
 
 
 
