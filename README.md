@@ -41,7 +41,14 @@ Topic : Stenography
 #### How to solve : 
 * We'll be using [Sox](http://sox.sourceforge.net/)
 
+* What is the song name?
 Again, open up a Terminal and start typing "sox audio.mp3 newaudio.mp3 reverse"
+The audio file will then be reversed, then start typing "sox newaudio.mp3 lastaudio.mp3 tempo 0.5" to slow it down.
+Use the App "Shazam" to identify the name of the song.
+* Checking the metadata, what is the original date of the audio?
+You will have to use [Metadata2go](https://www.metadata2go.com/) to extract the date.
+Upload the audio file to that website, then checkout the "Original Date", then you will have your answer!
+
 
 
 
