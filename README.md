@@ -78,7 +78,7 @@ Extract the Audio file from the ZIP file, and then type "xxd audio.mp3", you wil
 
 Go down to the bottom and you will copy the hash code, then you will have to connect them together in a notepad or a text editor.
 
-Then, you will go to [Base 64 decoder](https://www.base64decode.org/) and decode the hash. Your new hash will be a Base64 as well, so decode it again until you get the flag!
+You will then go to [Base 64 decoder](https://www.base64decode.org/) and decode the hash. Your new hash will be a Base64 as well, so decode it again until you get the flag!
 
 ## [Task 5] End
 Topic : End
