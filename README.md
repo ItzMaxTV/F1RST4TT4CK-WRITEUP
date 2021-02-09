@@ -1,5 +1,10 @@
 # F1rst-4tt4ck Write Up
 A beginner-level CTF challenge as one of the [TryHackMe room](https://tryhackme.com/room/f4), which focus on Stenography, Cracking, and processing audio files.
+Don't forget to run these commands before starting!
+
+apt-get update && upgrade -y
+apt-get install libsox-fmt-mp3
+
 
 ## Authors 
 * [ItzMaxYT](https://tryhackme.com/p/ItzMaxYT)
